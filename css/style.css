@@ -1,0 +1,44 @@
+ul  {
+    list-style: none;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.site-header{
+    background-color: #1E202B;
+    color: #fff;
+
+}
+
+
+.card .main{
+    background-color:#2D303D ;
+    color: #fff;
+}
+
+
+.card .card-body{
+    background-color:#323544;
+    color: #fff;
+}
+
+
+.site-footer{
+    background-color: #262936;
+    color: #fff;
+}
+
+
+.site-main{
+    background-image: url(../photo-1555109307-f7d9da25c244\ \(1\).avif);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.site-main form {
+    transform: translateY(50px);
+}

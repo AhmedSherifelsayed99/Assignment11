@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+	<div class="site-content">
+        <div class="site-header">
+            <div class="container d-flex align-items-center justify-content-between">
+                <a class='branding' href='/'>
+                    <img src="images/logo.png" alt="" class="logo">
+                    <div class="logo-type">
+                        <h3 class="site-title">Weather</h3>
+                
+                    </div>
+                </a>
+
+                <!-- Default snippet for navigation -->
+                <div class="main-navigation d-flex w-50 pt-5">
+                    <ul class="menu d-flex w-100 justify-content-between">
+                        <li class="menu-item current-menu-item"><a href='/'>Home</a></li>
+                        <li class="menu-item"><a href="#">News</a></li>
+                        <li class="menu-item"><a href="#">Live cameras</a></li>
+                        <li class="menu-item"><a href="#">Photos</a></li>
+                        <li class="menu-item"><a href='/contact'>Contact</a></li>
+                    </ul> <!-- .menu -->
+                </div> <!-- .main-navigation -->
+-
+                <div class="mobile-navigation"></div>
+
+            </div>
+        </div> <!-- .site-header -->
+
+        <div class="site-main">
+          <div class="hero" data-bg-image="images/banner.png">
+            <div class="container">
+                <form  class="find-location position-relative">
+                    <input type="text" placeholder="Find your location..." id="search" class=" form-control">
+                    <input type="button" value="Find" id="submit" class="position-absolute end-0 top-0 bottom-0  border rounded btn btn-primary">
+                </form>
+
+            </div>
+        </div>
+       
+
+        <div class="card-group py-5 mt-5">
+  <div class="card">
+    <div class="main d-flex justify-content-between align-items-center container">
+        <p id="todayName">Saturday</p>
+        <p id="todayNumber">13
+          <span id="todayMonth">January</span>
+        </p>
+       
+    </div>
+    <div class="card-body">
+      <h5 class="card-title" id="todayLocation">Cairo</h5>
+      <div class="d-flex">
+      <p class="card-text num fs-1 fw-bold" id="todayTemp">
+        19
+    
+      </p>
+      <span>
+        <sup>o</sup>
+        c
+      </span>
+    </div>
+      <p class="text-primary fs-5 " id="todayCondintion">clear</p>
+      <span><i class="fa  fa-umbrella"></i>20%</span>
+      <span><i class="fa fa-wind ms-2"></i>18km/hr</span>
+      <span><i class="fa fa-compass ms-2"></i>East</span>
+    </div>
+   
+
+
+  </div>
+
+  <div class="card">
+    <div class="main text-center">
+        <p id="nextDay">Saturday</p>
+    </div>
+    <div class="card-body">
+
+        <i class="fa fa-sun text-center d-flex justify-content-center mb-3"></i>
+
+      <p class="card-text num fs-3 fw-bold text-center" id="nextMaxtemp">
+        19
+        <sup>o</sup>
+        c
+      </p>
+      
+      <p class="card-text num fs-5 fw-normal text-center" id="nextMintemp">
+        17
+        <sup>o</sup>
+        c
+      </p>
+      
+      <p class="text-primary fs-6 text-center" id="nextCondintion">Patchy rain possible</p>
+ 
+    </div>
+   
+
+
+  </div>
+
+
+  <div class="card">
+    <div class="main text-center">
+        <p id="anextDy">Saturday</p>
+    </div>
+    <div class="card-body">
+
+        <i class="fa fa-sun text-center d-flex justify-content-center mb-3"></i>
+
+      <p class="card-text num fs-3 fw-bold text-center" id="anextMaxtemp">
+        19
+        <sup>o</sup>
+        c
+      </p>
+      
+      <p class="card-text num fs-5 fw-normal text-center" id="anextMintemp">
+        17
+        <sup>o</sup>
+        c
+      </p>
+      
+      <p class="text-primary fs-6 text-center" id="anextCondintion">Patchy rain possible</p>
+ 
+    </div>
+   
+
+
+  </div>
+
+
+  
+</div>
+        </div>
+
+
+
+        
+
+        <footer class="site-footer py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form position-relative">
+                            <input type="text" placeholder="Enter your email to subscribe..." class="form-control">
+                            <input type="submit" value="Subscribe" class="position-absolute top-0 bottom-0 end-0 border rounded btn btn-primary">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fa fa-brands fa-facebook fa-xl text-primary"></i></a>
+                            <a href="#"><i class="fa fa-brands fa-twitter fa-xl text-primary"></i></a>
+                            <a href="#"><i class="fa fa-brands fa-google-plus fa-xl text-primary"></i></a>
+                            <a href="#"><i class="fa fa-brands fa-pinterest fa-xl text-primary"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="colophon mt-5">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer> <!-- .site-footer -->
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
